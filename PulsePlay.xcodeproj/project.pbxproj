@@ -50,9 +50,22 @@
 		B21CB244302C1609001B6390 /* PulsePlay Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulsePlay Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B2C2BB223069A2800015950B /* Exceptions for "PulsePlay" folder in "PulsePlay" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = B21CB223302C0B25001B6390 /* PulsePlay */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B21CB226302C0B25001B6390 /* PulsePlay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2C2BB223069A2800015950B /* Exceptions for "PulsePlay" folder in "PulsePlay" target */,
+			);
 			path = PulsePlay;
 			sourceTree = "<group>";
 		};
@@ -390,6 +403,7 @@
 				DEVELOPMENT_TEAM = 5775NNY67U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulsePlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -422,6 +436,7 @@
 				DEVELOPMENT_TEAM = 5775NNY67U;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = PulsePlay/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
