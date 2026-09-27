@@ -50,37 +50,15 @@
 		B21CB244302C1609001B6390 /* PulsePlay Watch App Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "PulsePlay Watch App Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		B21A4BD5302C29E000C935F3 /* Exceptions for "PulsePlay" folder in "PulsePlay" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"PulsePlay Watch App/Assets.xcassets",
-				"PulsePlay Watch App/ContentView.swift",
-				"PulsePlay Watch App/PulsePlay_Watch_AppApp.swift",
-				"PulsePlay Watch App/WatchHeartRateView.swift",
-			);
-			target = B21CB223302C0B25001B6390 /* PulsePlay */;
-		};
-		B21A4BD6302C29E000C935F3 /* Exceptions for "PulsePlay" folder in "PulsePlay Watch App Watch App" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				"PulsePlay Watch App/Assets.xcassets",
-				"PulsePlay Watch App/ContentView.swift",
-				"PulsePlay Watch App/PulsePlay_Watch_AppApp.swift",
-				"PulsePlay Watch App/WatchHeartRateView.swift",
-			);
-			target = B21CB243302C1609001B6390 /* PulsePlay Watch App Watch App */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		B21CB226302C0B25001B6390 /* PulsePlay */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				B21A4BD5302C29E000C935F3 /* Exceptions for "PulsePlay" folder in "PulsePlay" target */,
-				B21A4BD6302C29E000C935F3 /* Exceptions for "PulsePlay" folder in "PulsePlay Watch App Watch App" target */,
-			);
 			path = PulsePlay;
+			sourceTree = "<group>";
+		};
+		B21CB256302C1609001B6390 /* PulsePlay Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "PulsePlay Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -107,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				B21CB226302C0B25001B6390 /* PulsePlay */,
+				B21CB256302C1609001B6390 /* PulsePlay Watch App */,
 				B21CB225302C0B25001B6390 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -177,6 +156,9 @@
 			buildRules = (
 			);
 			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				B21CB256302C1609001B6390 /* PulsePlay Watch App */,
 			);
 			name = "PulsePlay Watch App Watch App";
 			packageProductDependencies = (
